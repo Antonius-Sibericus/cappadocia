@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url("../fonts/philosopher-bold.ttf");
+  font-family: philosopher;
+  font-weight: 700;
+}
+@font-face {
+  src: url("../fonts/montserrat-regular.ttf");
+  font-family: Montserrat;
+  font-weight: 400;
+}
+@font-face {
+  src: url("../fonts/montserrat-semibold.ttf");
+  font-family: Montserrat;
+  font-weight: 600;
+}
+@font-face {
+  src: url("../fonts/montserrat-bold.ttf");
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.intro {
+  background-image: url("../images/intro-image.png");
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  background: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
